@@ -1,6 +1,6 @@
 clear ; close all; clc
 
-data = load('ex2data1.txt');
+data = load('logreg0.txt');
 X = data(:, [1, 2]); y = data(:, 3);
 
 fprintf(['Plotting data with + indicating (y = 1) examples and o ' ...
