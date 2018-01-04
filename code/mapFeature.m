@@ -1,3 +1,5 @@
+%% function to generate polynomial features
+
 function out = mapFeature(X1, X2)
 
 degree = 6;
